@@ -110,6 +110,21 @@
         </div>
         <div class="form__group">
           <div class="form__group-title">
+            <span class="form__label--item">お問い合わせの種類</span>
+            <span class="form__label--required">※</span>
+          </div>
+          <div class="form__group-content">
+            <div class="form__input--text">
+              <input type="text" name="name" placeholder="選択してください" />
+            </div>
+            <div class="form__error">
+              <!--バリデーション機能を実装したら記述します。-->
+            </div>
+          </div>
+        </div>
+
+        <div class="form__group">
+          <div class="form__group-title">
             <span class="form__label--item">お問い合わせ内容</span>
             <span class="form__label--required">※</span>
           </div>
